@@ -2,7 +2,7 @@ const getDateTime = () => {
   let now = dayjs();
   let month = now.format("MMM");
   let date = now.format("D");
-  let time = now.format("h:mm");
+  let time = now.format("h:mma");
   return {
     month: month,
     date: date,
