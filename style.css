@@ -1,0 +1,55 @@
+body {
+  display: -ms-grid;
+  display: grid;
+  grid-template-columns: 420px 1fr;
+  height: 93vh;
+  place-items: center;
+  background:  #f0f0f0 url("https://www.toptal.com/designers/subtlepatterns/patterns/leaves.png") repeat scroll 0% 0%;
+  font-family: sans-serif;
+  max-width: 1400px;
+  padding: 2rem;
+  margin: auto;
+}
+section, img {
+  box-shadow: 7px 7px 0 #ccc;
+}
+section {
+  background: #f0f0f0;
+  padding: 2rem;
+}
+figure img {
+  max-width: 100vw;
+  max-height: 93vh;
+}
+form {
+  height: 44px;
+  position: relative;
+}
+input {
+  border-radius: 24px;
+  height: 44px;
+}
+input[name=q] {
+  border: 1px solid #dfe1e5;
+  padding: 0rem 4rem 0 1rem;
+  color: rgba(0,0,0,.87);
+}
+input[name=q]:hover {
+  box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+  border-color: rgba(223,225,229,0);
+}
+input[type=submit] {
+  border-radius: 0 24px 24px 0;
+  position: absolute;
+  right: 0;
+  top: 1px;
+  border: none;
+  background: #212F4D;
+  color: whitesmoke;
+  padding: 0 1rem;
+  cursor: pointer;
+  transition: 250ms;
+}
+input[type=submit]:hover {
+  background: #3C578C;
+}
