@@ -65,14 +65,22 @@ input[type=submit]:hover {
 }
 
 .clock {
+  display: grid;
+  grid-template-areas:  "month time"
+                        "date time";
+  place-items: center;
+  column-gap: 2.5rem;
   text-align: center;
 }
 #clock-month {
+  grid-area: month;
   font-size: 2.5rem;
 }
 #clock-date {
+  grid-area: date;
   font-size: 5rem;
 }
 #clock-time {
-  font-size: 1rem;
+  grid-area: time;
+  font-size: 3rem;
 }
