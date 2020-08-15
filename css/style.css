@@ -20,6 +20,9 @@ body {
   padding: 2rem;
   margin: auto;
 }
+h1 {
+  text-align: center;
+}
 section, img {
   box-shadow: 7px 7px 0 #ccc;
 }
