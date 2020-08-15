@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'Josefin Sans';
+  src: url('font/JosefinSans-VariableFont_wght.ttf') format('ttf');
+}
+
 body {
   display: -ms-grid;
   display: grid;
@@ -5,7 +10,7 @@ body {
   height: 93vh;
   place-items: center;
   background:  #f0f0f0 url("https://www.toptal.com/designers/subtlepatterns/patterns/leaves.png") repeat scroll 0% 0%;
-  font-family: sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   max-width: 1400px;
   padding: 2rem;
   margin: auto;
