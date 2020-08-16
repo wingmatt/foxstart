@@ -14,7 +14,7 @@ body {
   grid-template-columns: 420px 1fr;
   height: 93vh;
   place-items: center;
-  background:  #f0f0f0 url("https://www.toptal.com/designers/subtlepatterns/patterns/leaves.png") repeat scroll 0% 0%;
+  background: whitesmoke;
   font-family: 'Josefin Sans', sans-serif;
   max-width: 1400px;
   padding: 2rem;
@@ -67,23 +67,30 @@ input[type=submit]:hover {
   background: #3C578C;
 }
 
+.img-bg {
+  background-color: rgba(0,0,0,.5);
+  background-image: url("../img/annie-spratt-8mqOw4DBBSg-unsplash.jpg");
+  background-blend-mode: multiply;
+  max-width: 330px;
+  color: whitesmoke;
+  width: 266px;
+  height: 434px;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .clock {
-  display: grid;
-  grid-template-areas:  "month time"
-                        "date time";
-  place-items: center;
-  column-gap: 2.5rem;
   text-align: center;
 }
 #clock-month {
-  grid-area: month;
-  font-size: 2.5rem;
+  font-size: 5.5rem;
 }
 #clock-date {
-  grid-area: date;
-  font-size: 5rem;
+  font-size: 12rem;
+  line-height: 1;
 }
 #clock-time {
-  grid-area: time;
-  font-size: 3rem;
+  font-size: 5rem;
 }
