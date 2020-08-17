@@ -9,14 +9,12 @@
 }
 
 body {
-  display: -ms-grid;
-  display: grid;
-  grid-template-columns: 420px 1fr;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
   height: 93vh;
-  place-items: center;
   background: whitesmoke;
   font-family: 'Josefin Sans', sans-serif;
-  max-width: 1400px;
   padding: 2rem;
   margin: auto;
 }
